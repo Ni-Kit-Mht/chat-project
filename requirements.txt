@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Core Django
+django
+djangorestframework
+
+# Channels for WebSockets
+channels
+channels-redis
+
+# ASGI Server to run the application
+daphne
+
+# Other dependencies
+django-cors-headers
+psycopg2-binary  # For PostgreSQL database connection
